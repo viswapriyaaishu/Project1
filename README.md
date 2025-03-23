@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,6 @@ If you are developing a production application, we recommend using TypeScript an
 =======
 # Project1
 >>>>>>> 0f3fe7715e9595a3fb4554bb79ddf463777f4d8d
+=======
+
+>>>>>>> bc702a6fab2054ec98c63f17b2c33f1098c3ad05
