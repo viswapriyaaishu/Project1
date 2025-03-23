@@ -1,0 +1,56 @@
+.b1 {
+    position:absolute;
+    top:-1vh;
+    right: -8rem;
+    background-color: var(--blue);
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left: 2rem;
+}
+.b1 > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.b1:hover {
+    transform: scale(1.1);
+}
+
+.wrapper {
+    background-color: var(--black);
+    z-index: 5;
+    width: 66rem;
+}
+
+.container {
+    color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.itheads {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.itheads > * {
+    text-decoration: none;
+    color: var(--secondary);
+    transition: color 0.3s;
+}
+
+.itheads > *:hover {
+    cursor: pointer;
+    color: var(--primary);
+}
+

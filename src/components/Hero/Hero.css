@@ -1,0 +1,68 @@
+.hwrapper {
+    position: relative;
+    color: white;
+    padding-bottom: 2rem;
+    height: 35rem;
+    width: 70rem;
+}
+
+.hcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hrightcon {
+    height: 30rem;
+    width: 25rem;
+    border-radius: 15rem 15rem 0 0;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+}
+
+.hrightcon > img {
+    height: 100%;
+    width: 100%;
+}
+
+.hleft {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgba(120, 120, 120, 0.37);
+    padding: 0 1rem;
+    width: 100%;
+    height: 6vh;
+}
+
+.sbox > input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.b2 {
+    position:absolute;
+    top:0.3vh;
+    background-color: var(--blue);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 1rem;
+}
+
+.b2:hover {
+    background-color: var(--primary);
+}
+

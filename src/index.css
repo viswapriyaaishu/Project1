@@ -1,0 +1,90 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Poppins",sans-serif;
+  scroll-behavior:smooth;
+}
+
+:root{
+  --primary:#1f3e72;
+  --secondary:rgba(255,255,255,0.78);
+  --black:#131110;
+  --blue-gradient:linear-gradient(97.05deg,#4066ff 3.76%,#2949c6 100%);
+  --orange-gradient:linear-gradient(270deg,#ffb978 0%,#ff922d 100%);
+  --blue:#4066ff;
+  --lightBlue:#eeeeff;
+  --shadow: 0px 23px 21px -8px rgba(136,160,255,0.25);
+  --fadedwhite:rgba(140,139,139);
+}
+
+.flexCenter {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  column-gap:2rem;
+  flex-wrap:nowrap;
+}
+
+.innerWidth {
+  width:100%;
+}
+@media(min-width:1536px)
+{
+ .innerWidth
+ { max-width:1280px;
+  margin:auto;}
+}
+
+.paddings
+{
+  padding:1.5rem;
+}
+
+.flexStart
+{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+}
+
+.appwrap
+{
+  position:relative;
+  overflow-x:clip;
+}
+
+.appcon
+{
+  position:relative;
+  display:flex;
+  gap:4px;
+  background:var(--black);
+}
+
+.whitecir
+{
+  background:rgba(255,255,255,0.522);
+  height:15rem;
+  width:15rem;
+  filter:blur(100px);
+  border-radius:100px;
+  z-index:10;
+}
+
+.orText
+{
+  font-size:2rem;
+  font-weight:bold;
+  color:#1f3e72
+}
+
+.prText
+{
+  font-size:1.5rem;
+  font-weight:600;
+  color:orange;
+}
+
